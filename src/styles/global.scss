@@ -1,0 +1,44 @@
+@import '_variables.scss';
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  text-decoration: none;
+  font-style: normal;
+  list-style: none;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  padding: 10px 40px;
+  border-radius: 6px;
+  background: #E67E23;
+  display: inline-block;
+  font-size: 1.6rem;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
